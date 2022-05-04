@@ -1,5 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Arvo&family=Chonburi&family=Kaushan+Script&family=Merriweather+Sans:wght@700&family=Permanent+Marker&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Arvo&family=Chonburi&family=Kaushan+Script&family=Merriweather+Sans:wght@700&family=Permanent+Marker&family=Whisper&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arvo&family=Chonburi&family=DM+Serif+Display&family=Kaushan+Script&family=Libre+Baskerville:wght@700&family=Merriweather+Sans:wght@700&family=Permanent+Marker&family=Water+Brush&family=Whisper&display=swap");
+.intro {
+  text-align: center;
+}
+
+.title {
+  margin: 40px;
+  font-size: 80px;
+  font-family: 'Water Brush', cursive;
+}
+
+.subtitle {
+  font-family: 'DM Serif Display', serif;
+}
+
 * {
   margin: 0;
   padding: 0;
