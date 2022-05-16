@@ -2,16 +2,55 @@
 
 
 .intro {
+    display: flex;
+    flex-direction: column;
+.parrafo{
+    font-size: 20px;
+    margin: 20px;
     text-align: center;
-}
+}}
 
 .title{
-    
-    margin: 40px;
+    margin: 20px;
     font-size: 80px;
     font-family: 'Water Brush', cursive;
+    text-align: center;
    
 }
 .subtitle {
     font-family: 'DM Serif Display', serif;
+  justify-content: center;
+  text-align: center;
+}
+
+.dani {
+    position: relative;
+width: 580px;
+height: 600px;
+margin: 30px;
+top: 70px;
+}
+
+.introContainer{
+    display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+
+
+
+}
+
+@media only screen and (max-width: 768px) {
+.introContainer{
+    display: flex;
+flex-direction: column;
+}
+
+.dani {
+    position: relative;
+width: 80%;
+height:90%;
+margin: 30px;
+top: 20px;
+}
 }

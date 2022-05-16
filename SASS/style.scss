@@ -88,6 +88,9 @@ a {
 
 
 @media only screen and (max-width: 768px) {
+
+
+    
     .nav-menu {
         position: fixed;
         left: -100%;
@@ -101,6 +104,7 @@ a {
         box-shadow:
             0 10px 27px rgba(0, 0, 0, 0.05);
       margin-top: 100px;
+      z-index: 1;
     }
 
     .nav-menu.active {
@@ -115,7 +119,6 @@ a {
     .hamburger {
         display: block;
         cursor: pointer;
-      
     }
 
 }
