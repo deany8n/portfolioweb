@@ -1,56 +1,148 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo&family=Chonburi&family=DM+Serif+Display&family=Kaushan+Script&family=Libre+Baskerville:wght@700&family=Merriweather+Sans:wght@700&family=Permanent+Marker&family=Water+Brush&family=Whisper&display=swap');
 
 
+
+.banner {
+    border: solid 10px black;
+    width: 100%;
+    height: 700px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/IMAGES/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-top: 80px;
+    
+
+
+}
+
+.welcome {
+    color: white;
+    position: relative;
+    text-align: center;
+    font-size: 90px;
+    margin-top: 260px;
+    text-transform: uppercase;
+
+
+}
+
+
+
+@keyframes animate {
+
+    0%,
+    10%,
+    100% {
+        width: 0;
+    }
+
+    70%,
+    90% {
+        width: 100%;
+    }
+}
+
+.subWelcome {
+    color: white;
+    position: relative;
+    text-align: center;
+
+}
+
 .intro {
     display: flex;
     flex-direction: column;
-.parrafo{
-    font-size: 20px;
-    margin: 20px;
-    text-align: center;
-}}
+    text-align: left;
 
-.title{
+    .parrafo {
+        font-size: 23px;
+        margin: 20px;
+        margin-left: 20px;
+        margin-top: 210px;
+        width: 80%;
+    }
+}
+
+.title {
     margin: 20px;
+    padding: 20px;
     font-size: 80px;
     font-family: 'Water Brush', cursive;
-    text-align: center;
-   
+    position: absolute;
+    display: flex;
+    justify-content: center;
+
+
 }
-.subtitle {
-    font-family: 'DM Serif Display', serif;
-  justify-content: center;
-  text-align: center;
-}
+
+
 
 .dani {
     position: relative;
-width: 580px;
-height: 600px;
-margin: 30px;
-top: 70px;
+    top: 50px;
+    margin: 90px;
+    width: 500px;
+    height: 500px;
+    border-radius: 100%;
 }
 
-.introContainer{
+.introContainer {
     display: flex;
-flex-direction: row;
-flex-wrap: nowrap;
-
-
-
+    flex-direction: row;
+    flex-wrap: nowrap;
 }
 
-@media only screen and (max-width: 768px) {
-.introContainer{
-    display: flex;
-flex-direction: column;
-}
+@media only screen and (max-width: 1024px) {
+    .banner {
+        margin-top: 140px;
+        height: 390px;
+      
+    }
 
-.dani {
+    .welcome {
+        margin-top: 20px;
+        font-size: 70px;
+    }
+
+    .introContainer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dani {
+        position: relative;
+        width: 80%;
+        height: 90%;
+        margin: 30px;
+        top: 20px;
+    }
+
+    .intro {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .title {
+            padding: 0;
+            text-align: center;
     position: relative;
-width: 80%;
-height:90%;
-margin: 30px;
-top: 20px;
+
+    margin-right: 80px;
+    
+        }
+
+        .parrafo {
+            font-size: 19px;
+            text-align: center;
+            margin: 30px;
+          position: relative;
+          
+         
+        }
+    }
+
+
 }
-}
+
+ 
