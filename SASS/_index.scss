@@ -11,14 +11,31 @@
     background-repeat: no-repeat;
     background-position: center center;
     margin-top: 80px;
-    
-
+    display: flex;
+flex-direction: column;    
+position: relative;
 
 }
 
+.icon {
+    text-align: center;
+    margin-top: 50px;
+    img{
+        width: 60px;
+       margin: 10px;
+        ;
+        cursor: pointer;
+
+    }
+}
+
+.icon :hover {
+    opacity: 60%;
+}
+
+
 .welcome {
     color: white;
-    position: relative;
     text-align: center;
     font-size: 90px;
     margin-top: 260px;
@@ -26,6 +43,8 @@
 
 
 }
+
+
 
 
 
