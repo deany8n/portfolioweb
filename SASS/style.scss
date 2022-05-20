@@ -24,6 +24,7 @@ a {
     font-family: 'Kaushan Script', cursive;
 
 }
+
 .since {
     font-family: 'Whisper', cursive;
     color: black;
@@ -37,10 +38,23 @@ a {
 .navbar {
     padding: 1rem 1.5rem;
     position: fixed;
+    top: 0px;
     background-color: white;
     width: 100%;
     z-index: 1;
 
+}
+.language{
+
+    position: relative;
+    margin-right: 50px;
+} a img{
+    width: 30px;
+    margin: 0px 10px;
+    cursor: pointer;
+}
+.language :hover {
+    opacity: 70%;
 }
 
 .hamburger {
@@ -72,7 +86,7 @@ a {
         font-size: 1.6rem;
         font-weight: 400;
         color: #475569;
-   
+        margin-right: 50px;
  
 
         }
