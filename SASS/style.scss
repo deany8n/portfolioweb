@@ -13,6 +13,7 @@
 html {
     font-size: 62.5%;
     font-family: 'Roboto', sans-serif;
+  
 }
 
 li {
@@ -106,8 +107,38 @@ a {
 }
 
 
+// section
 
 
+.animate__fadeIn {
+    animation-duration: 1s;
+}
+footer {
+ 
+   margin: 0;
+  padding: 100px;
+  color: white;
+  background-color: black;
+ 
+}
+.footerPortfolio {
+    position: relative;
+    bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    h1{
+        font-size: 50px;
+    }
+    h2 {
+        margin: 10px;
+    }
+    .h3 {
+        margin: 20px;
+    }
+      
+}
 
 
 
@@ -146,7 +177,7 @@ a {
         cursor: pointer;
     }
 
-}
+
 
 
 .hamburger.active .bar:nth-child(2) {
@@ -168,5 +199,11 @@ a {
     animation-duration: 3s;
 }
 
+.footerPortfolio h1 {
+    font-size: 35px;
+    text-align: center;
+}
+
+}
 
 

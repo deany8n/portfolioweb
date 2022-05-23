@@ -210,6 +210,19 @@
       flex-wrap: nowrap;
 }
 
+.contactTitle {
+  margin: 20px;
+  padding: 20px;
+  font-size: 80px;
+  font-family: 'Water Brush', cursive;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 @media only screen and (max-width: 1024px) {
   .banner {
     margin-top: 140px;
@@ -365,6 +378,44 @@ a img {
   font-family: 'Times New Roman', Times, serif;
 }
 
+.animate__fadeIn {
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
+footer {
+  margin: 0;
+  padding: 100px;
+  color: white;
+  background-color: black;
+}
+
+.footerPortfolio {
+  position: relative;
+  bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.footerPortfolio h1 {
+  font-size: 50px;
+}
+
+.footerPortfolio h2 {
+  margin: 10px;
+}
+
+.footerPortfolio .h3 {
+  margin: 20px;
+}
+
 @media only screen and (max-width: 1200px) {
   .nav-menu {
     position: fixed;
@@ -395,24 +446,24 @@ a img {
     display: block;
     cursor: pointer;
   }
-}
-
-.hamburger.active .bar:nth-child(2) {
-  opacity: 0;
-}
-
-.hamburger.active .bar:nth-child(1) {
-  -webkit-transform: translateY(8px) rotate(45deg);
-          transform: translateY(8px) rotate(45deg);
-}
-
-.hamburger.active .bar:nth-child(3) {
-  -webkit-transform: translateY(-8px) rotate(-45deg);
-          transform: translateY(-8px) rotate(-45deg);
-}
-
-.animate__fadeIn {
-  -webkit-animation-duration: 3s;
-          animation-duration: 3s;
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+  .hamburger.active .bar:nth-child(1) {
+    -webkit-transform: translateY(8px) rotate(45deg);
+            transform: translateY(8px) rotate(45deg);
+  }
+  .hamburger.active .bar:nth-child(3) {
+    -webkit-transform: translateY(-8px) rotate(-45deg);
+            transform: translateY(-8px) rotate(-45deg);
+  }
+  .animate__fadeIn {
+    -webkit-animation-duration: 3s;
+            animation-duration: 3s;
+  }
+  .footerPortfolio h1 {
+    font-size: 35px;
+    text-align: center;
+  }
 }
 /*# sourceMappingURL=style.css.map */
