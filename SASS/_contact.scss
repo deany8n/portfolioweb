@@ -1,0 +1,45 @@
+.contactTitle {
+
+    font-family: 'Water Brush', cursive;
+    font-size: 90px;
+    justify-content: center;
+    display: flex;
+    margin: 10px;
+    
+}
+
+.contactContainer {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    position: relative;
+.contactList{
+    margin: 20px;
+    padding: 20px;
+    font-size: 20px;
+    li{
+        margin: 20px;
+        text-align: left;
+        padding: 20px;
+        
+    }
+}
+    img{
+        width: 30px;
+        margin: 15px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .contactList {
+        li {
+            font-size: 15px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            flex-wrap: nowrap;
+        }
+    }
+  
+}

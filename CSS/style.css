@@ -1,6 +1,65 @@
 @import url("https://fonts.googleapis.com/css2?family=Arvo&family=Chonburi&family=Kaushan+Script&family=Merriweather+Sans:wght@700&family=Permanent+Marker&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Arvo&family=Chonburi&family=Kaushan+Script&family=Merriweather+Sans:wght@700&family=Permanent+Marker&family=Whisper&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Arvo&family=Chonburi&family=DM+Serif+Display&family=Kaushan+Script&family=Libre+Baskerville:wght@700&family=Merriweather+Sans:wght@700&family=Permanent+Marker&family=Water+Brush&family=Whisper&display=swap");
+.contactTitle {
+  font-family: 'Water Brush', cursive;
+  font-size: 90px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 10px;
+}
+
+.contactContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+
+.contactContainer .contactList {
+  margin: 20px;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.contactContainer .contactList li {
+  margin: 20px;
+  text-align: left;
+  padding: 20px;
+}
+
+.contactContainer img {
+  width: 30px;
+  margin: 15px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .contactList li {
+    font-size: 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+}
+
 .intro {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -208,19 +267,6 @@
           flex-direction: row;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
-}
-
-.contactTitle {
-  margin: 20px;
-  padding: 20px;
-  font-size: 80px;
-  font-family: 'Water Brush', cursive;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
 @media only screen and (max-width: 1024px) {
